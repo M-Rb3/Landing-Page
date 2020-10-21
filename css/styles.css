@@ -1,0 +1,149 @@
+/* FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap');
+
+/* highlight */
+.active {
+  background-color: #71808f;
+  color: white;
+}
+
+/* HEADERS */
+.section-heading {
+  font-family: 'Raleway', sans-serif;
+  color: #3d3d3d;
+  font-size: 2.5em;
+  border: groove #343a40 4px;
+  border-radius: 15px 50px;
+  width: 300px;
+  height: 60px;
+  text-align: center;
+  margin-bottom: 1em;
+  margin-top: 1.5em;
+}
+
+/* NAVBAR */
+
+html {
+  scroll-behavior: smooth;
+}
+.navbar {
+  background-color: transparent;
+  box-shadow: 0px 1px 20px #eaeaea;
+  transition: background-color 1s ease 0s;
+}
+
+.navbar-brand {
+  font-size: 1.3em;
+}
+
+.nav-link {
+  font-size: 1.1em;
+}
+
+/* SLIDER */
+.carousel-caption {
+  position: absolute;
+  margin: auto;
+  top: 35%;
+}
+
+.carousel-caption h3 {
+  font-size: 5em;
+}
+
+/* ABOUT */
+#about i {
+  color: #3d3d3d;
+}
+
+section h3 {
+  margin-top: 4px;
+  color: #000000;
+  font-weight: 600;
+  font-size: 1.5em;
+  text-transform: uppercase;
+}
+
+#about p {
+  color: #000000;
+  font-size: 1em;
+  line-height: 1.7em;
+}
+
+section {
+  position: relative;
+  padding-bottom: 4em;
+}
+
+/* SERVICES */
+#services {
+  padding-bottom: 6em;
+  margin-top: 3em;
+}
+
+#services img {
+  display: block;
+  margin: 0 auto;
+  padding-bottom: 1em;
+  margin-top: 2em;
+}
+
+#services .services-block {
+  text-align: center;
+}
+
+#services .services-block p {
+  color: #000000;
+  font-size: 1em;
+  line-height: 1.7em;
+  width: 300px;
+  margin: auto;
+  margin-top: 1.1em;
+}
+
+/* VALUES */
+#values .icon {
+  color: #a83f39;
+  text-align: center;
+  margin-bottom: 4px;
+}
+
+/* CONTACT */
+.btn-contact {
+  background: #343a40;
+  padding: .5em 2.2em;
+  color: #ffff;
+  font-weight: 600;
+  border-radius: 2em;
+  border: none;
+}
+
+.btn-contact:hover {
+  background: #ffffff;
+  color: #000000;
+  border: 2px solid #000000;
+}
+
+#contact .contact-details ul li {
+  padding-bottom: .8em;
+}
+
+#contact .contact-details ul li i {
+  color: #828487;
+}
+
+/* FOOTER */
+#footer .social-icons {
+  margin-top: -.5rem;
+}
+
+#footer .social-icons a {
+  margin-right: 10px;
+  color: #8d8c8c;
+}
+
+.copyright p {
+  margin-top: 1rem;
+  color: #ffffff;
+  font-size: .9rem;
+}

@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+  <!-- custome CSS -->
+  <link href="css/styles.css" rel="stylesheet">
+
+  <!-- fontawasome -->
+  <script src="https://kit.fontawesome.com/a515d9c7ad.js" crossorigin="anonymous"></script>
+
+  <title>Landing page</title>
+
+</head>
+
+<body>
+  <!-- HTML Follows BEM naming conventions
+  IDs are only used for sections to connect menu achors to sections -->
+  <header>
+    <!-- Navigatin bar -->
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top">
+      <div class="container-fluid">
+
+        <a class="nav-link" href="#"><i class="navbar-brand fas fa-code"></i><span class="navbar-text navbar-brand">Name</span></a>
+
+        <a href="#" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-menu"><i class="navbar-toggler-icon"></i></a>
+
+        <div class="navbar-collapse collapse" id="navbar-menu">
+          <ul class="navbar-nav ml-auto">
+          </ul>
+
+        </div>
+      </div>
+    </nav>
+
+
+
+    <!-- slider -->
+    <div class="carousel" id="mainSlide">
+      <div class="carousel-inner">
+        <img class="d-block w-100" src="images/slider_pic.jpg" alt="">
+        <div class="carousel-caption d-none d-md-block">
+          <h3>Company</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- Each Section has an ID (used for the anchor) and
+    a data attribute that will populate the li node.
+    Adding more sections will automatically populate nav.
+    The first section is set to active class by default -->
+  <main>
+    <!-- About section -->
+    <section id="about">
+
+      <div class="container">
+
+        <div class="row justify-content-center">
+          <h2 class="section-heading">ABOUT</h2>
+        </div>
+
+        <div class="row justify-content-center text-center mt-5">
+
+          <div class="col-md-4">
+            <i class="far fa-clock fa-3x mb-2"></i>
+            <h3>Lorem</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam ipsa id sequi praesentium iste
+              dolor tenetur facere dolorem nostrum ullam doloremque, adipisci amet maxime. Mollitia praesentium
+              veritatis quisquam. Optio, laborum?</p>
+          </div>
+          <div class="col-md-4">
+            <i class="fas fa-lightbulb fa-3x mb-2"></i>
+            <h3>Lorem</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam ipsa id sequi praesentium iste
+              dolor tenetur facere dolorem nostrum ullam doloremque, adipisci amet maxime. Mollitia praesentium
+              veritatis quisquam. Optio, laborum?</p>
+          </div>
+          <div class="col-md-4">
+            <i class="fas fa-globe-americas fa-3x mb-2"></i>
+            <h3>Lorem</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam ipsa id sequi praesentium iste
+              dolor tenetur facere dolorem nostrum ullam doloremque, adipisci amet maxime. Mollitia praesentium
+              veritatis quisquam. Optio, laborum?</p>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+    <!-- Service section -->
+    <section id="services">
+
+      <div class="container">
+
+        <div class="row justify-content-center">
+          <h2 class="section-heading">SERVICES</h2>
+        </div>
+
+        <div class="row mt-5">
+
+          <div class="col-md-6">
+            <div class="services-block">
+              <img src="images/graphic.jpg" alt="graphic_d">
+              <h3 class="text-center">graphic desgin</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae illum asperiores deleniti. Facere, possimus
+                architecto necessitatibus alias veritatis aperiam eius quibusdam vel ducimus fuga
+                delectus, velit, temporibus consequatur voluptatibus a.</p>
+            </div>
+            <div class="services-block mt-5">
+              <img src="images/web.jpg" alt="">
+              <h3 class="text-center">web development</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae illum asperiores deleniti. Facere, possimus
+                architecto necessitatibus alias veritatis aperiam eius quibusdam vel ducimus fuga
+                delectus, velit, temporibus consequatur voluptatibus a.</p>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="services-block">
+              <img src="images/game.jpg" alt="">
+              <h3 class="text-center">game development</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae illum asperiores deleniti. Facere, possimus
+                architecto necessitatibus alias veritatis aperiam eius quibusdam vel ducimus fuga
+                delectus, velit, temporibus consequatur voluptatibus a.</p>
+            </div>
+            <div class="services-block mt-5">
+              <img src="images/mobile.jpg" alt="">
+              <h3 class="text-center">mobile development</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae illum asperiores deleniti. Facere, possimus
+                architecto necessitatibus alias veritatis aperiam eius quibusdam vel ducimus fuga
+                delectus, velit, temporibus consequatur voluptatibus a.</p>
+            </div>
+          </div>
+
+        </div>
+
+
+      </div>
+
+    </section>
+
+    <!-- our value section -->
+    <section id="values">
+
+      <div class="container">
+
+        <div class="row justify-content-center">
+          <h2 class="section-heading">OUR VALUES</h2>
+        </div>
+
+        <div class="row justify-content-center container mt-3">
+
+          <div class="col-md-2 icon">
+            <i class="fas fa-heart fa-7x mr-2"></i>
+          </div>
+
+          <div class="col-md-10">
+            <div class="values-block">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae illum asperiores deleniti. Facere, possimus
+                architecto necessitatibus alias veritatis aperiam eius quibusdam vel ducimus fuga
+                delectus, velit, temporibus consequatur voluptatibus a.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+                officia deserunt mollit anim id est laborum.</p>
+            </div>
+          </div>
+
+        </div>
+
+
+      </div>
+
+    </section>
+
+    <!-- Contact section -->
+    <section id="contact">
+
+      <div class="container">
+
+        <div class="row justify-content-center mt-4">
+          <h2 class="section-heading">CONTACT</h2>
+        </div>
+
+        <div class="row mt-5">
+
+          <div class="col-md-8">
+            <div class="contact-form">
+              <form action="#">
+                <div class="row">
+                  <div class="col">
+                    <input type="text" class="form-control" placeholder="Enter your name">
+                  </div>
+                  <div class="col">
+                    <input type="email" class="form-control" placeholder="Enter your email address">
+                  </div>
+                </div>
+                <div class="form-group mt-4">
+                  <textarea class="form-control" rows="10" placeholder="Enter your message"></textarea>
+                </div>
+                <button type="submit" class="btn btn-contact mt-4">Send</button>
+              </form>
+            </div>
+          </div>
+
+          <div class="col-md-4 mt-4">
+
+            <div class="address">
+              <h3>Address</h3>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde voluptatibus quae ea nihil
+                tempora nemo voluptatum praesentium soluta nam?</p>
+            </div>
+            <div class="contact-details">
+              <ul class="fa-ul">
+                <li><span class="fa-li"><i class="fas fa-mobile-alt"></i></span>+2 777-777-7777</li>
+                <li><span class="fa-li"><i class="fas fa-map-marker-alt"></i></span>Lorem ipsum dolor sit amet consect.</li>
+                <li><span class="fa-li"><i class="fas fa-paper-plane"></i></span>info@yourcompany.com</li>
+              </ul>
+            </div>
+
+          </div>
+
+        </div>
+
+
+      </div>
+
+    </section>
+
+
+  </main>
+  <footer id="footer" class="container-fluid text-center bg-dark p-3">
+
+    <div class="container">
+
+      <div class="row d-flex flex-column">
+
+        <div class="social-icons">
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-youtube"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+
+      </div>
+
+      <p class="text-center">Copyright 2020</p>
+    </div>
+
+  </footer>
+  <!-- JavaScript -->
+  <script src="js/app.js"></script>
+
+  <!-- jQuery first, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+
+</html>
